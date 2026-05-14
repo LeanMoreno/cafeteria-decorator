@@ -12,6 +12,7 @@ Se comienza haciendo la interfaz, luego las clases que usan esa interfaz.
 Despues creas la clase abstracta de los decoradores y luego creas los decoradores.
 */
 public abstract class IngredienteDecorator implements Iinfusion {
+    //La clase va a tener un atributo que es la interfaz.
     private final Iinfusion infusion;
 
     protected IngredienteDecorator(Iinfusion infusion){
@@ -37,7 +38,5 @@ public abstract class IngredienteDecorator implements Iinfusion {
 
     protected abstract String getNombreIngrediente();
 
-    
 
-    
 }

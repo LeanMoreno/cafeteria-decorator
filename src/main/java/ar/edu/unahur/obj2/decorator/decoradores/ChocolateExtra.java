@@ -4,7 +4,7 @@ import ar.edu.unahur.obj2.decorator.infusiones.Iinfusion;
 
 public class ChocolateExtra extends IngredienteDecorator{
 
-    protected ChocolateExtra(Iinfusion infusion) {
+    public ChocolateExtra(Iinfusion infusion) {
         super(infusion);
     }
 

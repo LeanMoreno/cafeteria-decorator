@@ -4,7 +4,7 @@ import ar.edu.unahur.obj2.decorator.infusiones.Iinfusion;
 
 public class Canela extends IngredienteDecorator{
 
-    protected Canela(Iinfusion infusion) {
+    public Canela(Iinfusion infusion) {
         super(infusion);
     }
 
